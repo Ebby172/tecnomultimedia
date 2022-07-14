@@ -1,4 +1,4 @@
-void enemigos() {
+void enemigos(int posen1, int posen2, int posen3) {
   if(p==bird.length){
   p=0;}
   image (bird[p], posen1, posY);

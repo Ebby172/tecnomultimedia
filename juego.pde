@@ -10,7 +10,7 @@ void juego() {
   } else {
     image( mr[c], mrx, mry );
   }
-  enemigos();
+  enemigos(300,550,850);
   if (mrx<poss1-70) {
     estrella1();
   }

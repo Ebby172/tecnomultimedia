@@ -1,9 +1,7 @@
-//https://youtu.be/hesEr87MjR0
-
 PImage[] mr = new PImage[3];
 PImage[] mrr = new PImage[3];
 PImage[] bird = new PImage [3];
-int c = 0, mrx=100, poss1=400, poss2=700, poss3=1000, cant=0, p=0, updir, veloup =6, posY=600, topeup=250, topePiso=570, mry=550, posen1=300, posen2=550, posen3=850;
+int c = 0, mrx=100, poss1=400, poss2=700, poss3=1000, cant=0, p=0, updir, veloup =6, posY=600, topeup=250, topePiso=570, mry=550;
 int velcred=300;
 boolean going_left, up, goingUp=true;
 PImage bckgrnd, floor, star, logo, goal, nap,monch;

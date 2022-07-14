@@ -1,7 +1,7 @@
 void check() {
   if (cant==3 && mrx>=1090) {
     estado="victoria";
-  } else if (dist(mrx, mry, posen1, posY)<75 || dist(mrx, mry, posen2, posY)<75 || dist(mrx, mry, posen3, posY)<75) {
+  } else if (dist(mrx, mry, 300, posY)<75 || dist(mrx, mry, 550, posY)<75 || dist(mrx, mry, 850, posY)<75) {
     estado="derrota";}
    if (estado.equals("derrota")) {
     derrota();}
